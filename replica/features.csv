@@ -1,0 +1,28 @@
+feature,area,priority,original,clone,notes
+Summon a hero from a 5-hero deck with rising Aether cost,battle,must,yes,no,original is random cell; ours lets the player choose the pad
+Shuffle-bag summon with Next preview,battle,must,no,no,fix #3: no streaks; plan ahead
+Player chooses which pad a summoned hero stands on,battle,must,no,no,positioning = skill
+Merge two identical heroes of the same tier into the same hero tier+1 (max 5),battle,must,partial,no,original gives a random unit; ours keeps identity
+Kill and wave-clear income,battle,must,yes,no,
+Interest on unspent Aether at wave end (capped),battle,should,no,no,spend-vs-save decision
+Role-based targeting with tap-to-change mode,battle,must,partial,no,fix #5
+Visible road with flank pads and range circles,battle,must,no,no,the honest promise
+Enemy classes: swarm / fast / armored / flying / healer / splitter,battle,must,yes,no,each asks for a different answer
+Next-wave preview icons,battle,must,partial,no,readable pressure
+Telegraphed counterable boss abilities,battle,must,partial,no,fix #4
+Choose 1 of 3 boons between waves,battle,must,no,no,roguelite layer; replaces PvP for depth
+Free x2 speed and pause,battle,must,no,no,fix #6
+Card-wide power-up with Aether,battle,could,yes,no,maybe later; boons cover this role at first
+Hero active abilities,battle,could,yes,no,later content
+Results screen with why-you-lost hint,meta,must,no,no,failure must teach
+Chest after win with shards to unlock heroes,meta,must,yes,no,
+Permanent hero levels (small capped bonuses),meta,should,yes,no,never lost; never nerfed without refund
+Stars per level (no gate damage / under par time),meta,should,no,no,replay goal
+100 handcrafted levels across maps with modifiers,meta,should,no,no,built after the slice is polished
+Opt-in rewarded ads only at breaks,monetization,must,partial,no,fix #1
+Remove ads one-time purchase,monetization,must,yes,no,
+Cosmetic hero skins,monetization,could,yes,no,later
+Local save each wave + cloud save + restore purchases,platform,must,partial,no,fix #7
+Real-time PvP,modes,skip,yes,no,expensive servers; top complaint driver
+Clans / co-op dungeons,modes,skip,yes,no,later if ever
+Their units names art audio UI layout numbers,content,skip,yes,no,never copy

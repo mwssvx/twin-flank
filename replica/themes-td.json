@@ -1,0 +1,22 @@
+{
+  "_about": "Merge tower-defense themes for Twin Flank research. Patterns are case-insensitive regexes.",
+  "request_patterns": ["\\bi wish\\b","\\bplease (add|fix|make|bring|lower|give)\\b","\\bwould be (nice|great|good|cool|better)\\b","\\bwould love\\b","\\bneeds? (a|an|the|to|more)\\b","\\bshould (add|be|let|have|make)\\b","\\bif only\\b","\\bwhy (can'?t|isn'?t|doesn'?t|do|does|is)\\b","\\bbring back\\b"],
+  "themes": [
+    {"id":"p2w","label":"Pay to win / spending decides outcomes","kind":"complaint","patterns":["pay ?to ?win","\\bp2w\\b","\\bwhales?\\b","\\bspend(ers?|ing)?\\b.*\\b(win|money|dollars)","\\bmoney grab","cash ?grab","\\bpaywall","\\bwallet"]},
+    {"id":"rng","label":"RNG / luck decides the match","kind":"complaint","patterns":["\\brng\\b","\\bluck(y)?\\b","\\brandom(ness)?\\b","\\brigged\\b","\\bgambl","\\bslot machine","\\bodds\\b","\\bcoin ?flip"]},
+    {"id":"matchmaking","label":"Unfair matchmaking / stronger opponents","kind":"complaint","patterns":["matchmak","match ?up","matched (with|against)","\\bhigher level","\\bmuch stronger","\\bunfair\\b","\\bbots?\\b","\\bcheat(er|ers|ing)?\\b","\\bhack(er|ers|ed)?\\b"]},
+    {"id":"progression","label":"Progression too slow / grind / upgrade costs","kind":"complaint","patterns":["\\bgrind","\\bslow progress","progress(ion)? (is|so) slow","\\btakes? (forever|years|months)","\\bupgrade cost","\\bcan'?t (progress|upgrade|level)","\\bstuck\\b","\\bwall\\b","\\blevel(ing)? (up )?is"]},
+    {"id":"difficulty","label":"Difficulty spikes / impossible bosses","kind":"complaint","patterns":["\\bimpossible\\b","\\btoo (hard|difficult)","\\bdifficulty (spike|jump)","\\bboss(es)? (is|are)? ?(too|impossible|broken)","\\bcan'?t (beat|win|pass)","\\bunbeatable"]},
+    {"id":"rewards","label":"Stingy rewards / chests / drop rates","kind":"complaint","patterns":["\\bchests?\\b","\\breward(s)? (are|is)? ?(bad|terrible|stingy|low|trash|nothing)","\\bdrop rates?","\\bstingy\\b","\\bnerf(ed)? (the )?reward","\\bnothing (good|useful)"]},
+    {"id":"ads","label":"Ads (forced, too many, broken)","kind":"complaint","patterns":["\\bads?\\b","\\badvert","\\bcommercials?\\b"]},
+    {"id":"energy","label":"Energy / timers / waiting","kind":"complaint","patterns":["\\benergy\\b","\\bstamina\\b","\\btimers?\\b","\\bwait(ing)? (for|hours)","\\bcooldown"]},
+    {"id":"balance","label":"Unit balance / nerfs / meta","kind":"complaint","patterns":["\\bnerf","\\bbuff(ed|s)?\\b","\\bbalanc","\\bmeta\\b","\\bover ?powered\\b","\\bop\\b","\\bbroken (unit|card|hero|character|dice)"]},
+    {"id":"update","label":"Update made it worse","kind":"complaint","patterns":["\\b(new |latest |recent )?update (ruined|broke|made|killed)","\\bsince the (new |latest |last )?update","\\bafter the (new |latest |last )?update","\\bruined\\b","\\bused to (be|love)"]},
+    {"id":"bugs","label":"Bugs / crashes / lag / connection","kind":"complaint","patterns":["\\bcrash","\\bbug(s|gy)?\\b","\\blag(s|gy|ging)?\\b","\\bfreez","\\bconnection\\b","\\bdisconnect","\\bglitch","\\bload(ing)? (screen|forever)","\\bserver"]},
+    {"id":"repetitive","label":"Boring / repetitive / no strategy","kind":"complaint","patterns":["\\bboring\\b","\\brepetitive\\b","\\bsame thing","\\bno strategy","\\bmindless","\\bnothing to do","\\bgets old"]},
+    {"id":"support","label":"Support / lost account / purchases not received","kind":"complaint","patterns":["\\bsupport\\b","\\baccount (lost|gone|deleted|banned)","\\bbanned\\b","\\bnever (received|got)\\b","\\bdidn'?t (receive|get) (my|the)","\\brefund"]},
+    {"id":"praise_strategy","label":"PRAISE: strategy, deck building, depth","kind":"complaint","patterns":["\\bstrateg","\\bdeck ?build","\\bsynerg","\\bcombo(s)?\\b","\\bthink(ing)?\\b","\\bdepth\\b","\\bskill\\b"]},
+    {"id":"praise_merge","label":"PRAISE: merging / satisfying / addictive","kind":"complaint","patterns":["\\bmerg","\\bsatisf","\\baddict","\\bfun\\b","\\blove (this|the|it)"]},
+    {"id":"praise_coop","label":"Co-op / playing with others","kind":"complaint","patterns":["\\bco-?op\\b","\\bclans?\\b","\\bfriends?\\b","\\bteam ?mate","\\bpartner"]}
+  ]
+}
