@@ -532,6 +532,21 @@ The stage Cursor never managed. Nothing new is added; everything is made to feel
 
 At about 3 sessions a week, launch is roughly **5–6 months** away. More sessions make it faster; skipped gates make it worse, not faster.
 
+**At your real pace (5–8 hours a day, decided 8 Oct 2026), launching with Map 1 (10 levels):**
+
+| week | work | outside waits running in parallel |
+| --- | --- | --- |
+| 1 | Stages 0–1: setup, rules engine, simulator | apply for Apple + Google accounts; check payouts; start collecting 12 testers |
+| 2 | Stage 2: playable battle on your phone | account approvals |
+| 3–4 | Stage 3: feel and art pass (most of your feedback time) | you generate art from prompts |
+| 5 | Stage 4: levels 1–10, boons, boss, results | — |
+| 6 | Stages 5–6: home, heroes, chests, tutorial, settings | — |
+| 7 | Stages 7–8: phone builds, ads, purchases, cloud save | **closed test starts (14 days)**, TestFlight |
+| 8–9 | fixes from testers, store page, ad test | closed test finishes |
+| 9–10 | Stage 11: launch | app review (1–3 days) |
+
+**About 9–10 weeks to launch; Map 2 (levels 11–20) about 2 weeks later as the first update.** The fixed waits (account approval, 14-day closed test, app review) are why it can't be squeezed below roughly 7–8 weeks even with more hours.
+
 ---
 
 ## Appendix A — Tech stack
